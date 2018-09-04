@@ -6,10 +6,10 @@
 
 float numOne()
 {
-        float answer;
-        printf("ingrese el primer numero que va a operar:\n");
-        scanf("%f",&answer);
-        return answer;
+    float answer;
+    printf("ingrese el primer numero que va a operar:\n");
+    scanf("%f",&answer);
+    return answer;
 }
 
 //funcion de la segunda opcion ingresar el segundo numero y
