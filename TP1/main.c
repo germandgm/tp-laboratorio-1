@@ -6,16 +6,11 @@ int main()
 { //declaracion de las variables duh!
 
     char continuar='y';
+
     int option=0;
-    int answer;
     int flag1=0;
     int flag2=0;
-    float resultSuma;
-    float resultResta;
-    float resultMultiplicacion;
-    float resultDivision;
-    float resultFactoreo1;
-    float resultFactoreo2;
+
     float numberOne;
     float numberTwo;
 
