@@ -56,7 +56,7 @@ float division(float x,float y)
     float result;
     if(y==0)
     {
-        printf("es imposible dividir por cero, sorete!\n");
+        printf("es imposible dividir por cero, tonto!\n");
     }
     else
     {
