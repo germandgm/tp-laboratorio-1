@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1536046080 source:c:\users\germa\desktop\calculadora1\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"herramienta.h"
+
+1536044650 c:\users\germa\desktop\calculadora1\tp1\herramienta.h
+
+1536045602 source:c:\users\germa\desktop\calculadora1\tp1\herramienta.c
+	<stdio.h>
+	"herramienta.h"
+
