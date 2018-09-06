@@ -8,8 +8,8 @@ int main()
     char continuar='y';
 
     int option=0;
-    int flag1=0;
-    int flag2=0;
+    int f1=0;
+    int f2=0;
 
     float numberOne;
     float numberTwo;
@@ -36,31 +36,31 @@ int main()
         switch(option)
         {
             case 1:
-                flag1=1;
+                f1=1;
                 numberOne=numOne();
                 system("pause"),system("cls");
                 break;
             case 2:
-                flag2=1;
+                f2=1;
                 numberTwo=numTwo();
                 system("pause"),system("cls");
                 break;
 
             case 3:
-                if(flag1==1 && flag2==1)
+                if(f1==1 && f2==1)
                 {
-                printf("obteniendo resultado de la suma... %.2f + %.2f (esto puede tomar tiempo! hehe)\n",numberOne,numberTwo);
-                printf("obteniendo resultado de la resta... %.2f - %.2f (esto tambien...)\n",numberOne,numberTwo);
-                printf("obteniendo resultado de la multiplicacion... %.2f x %.2f (ah y esto!)\n",numberOne,numberTwo);
-                if(numberTwo==0)
-                {
-                    printf("NOP! no se puede divir entre 0! ('B' debe ser distinto de 0 para realizar la division!)\n");
-                }
-                else
-                {
-                    printf("obteniendo resultado de la division... %.2f / %.2f (ah tranqui ya casi esta...)\n",numberOne,numberTwo);
-                }
-                printf("obteniendo resultado de los factoriales de %.2f y %.2f (ya esta, hurrah! ahora ya sabes que hacer...)\n",numberOne,numberTwo);
+                    printf("obteniendo resultado de la suma... %.2f + %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                    printf("obteniendo resultado de la resta... %.2f - %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                    printf("obteniendo resultado de la multiplicacion... %.2f x %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                    if(numberTwo==0)
+                    {
+                        printf("NOP! no se puede divir entre 0! ('B' debe ser distinto de 0 para realizar la division!)\n");
+                    }
+                    else
+                    {
+                        printf("obteniendo resultado de la division... %.2f / %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                    }
+                    printf("obteniendo resultado de los factoriales de %.2f y %.2f (PROCESANDO...)\n",numberOne,numberTwo);
 
                 }
                 else

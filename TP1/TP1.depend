@@ -10,3 +10,15 @@
 	<stdio.h>
 	"herramienta.h"
 
+1536204806 source:c:\users\germa\desktop\calculadora1\.git\tp1\herramienta.c
+	<stdio.h>
+	<ctype.h>
+	"herramienta.h"
+
+1536204265 c:\users\germa\desktop\calculadora1\.git\tp1\herramienta.h
+
+1536204657 source:c:\users\germa\desktop\calculadora1\.git\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"herramienta.h"
+
