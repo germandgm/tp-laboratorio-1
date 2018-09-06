@@ -49,16 +49,16 @@ int main()
             case 3:
                 if(f1==1 && f2==1)
                 {
-                    printf("obteniendo resultado de la suma... %.2f + %.2f (PROCESANDO...)\n",numberOne,numberTwo);
-                    printf("obteniendo resultado de la resta... %.2f - %.2f (PROCESANDO...)\n",numberOne,numberTwo);
-                    printf("obteniendo resultado de la multiplicacion... %.2f x %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                    printf("obteniendo resultado de la suma de %.2f + %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                    printf("obteniendo resultado de la resta de %.2f - %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                    printf("obteniendo resultado de la multiplicacion de %.2f x %.2f (PROCESANDO...)\n",numberOne,numberTwo);
                     if(numberTwo==0)
                     {
                         printf("NOP! no se puede divir entre 0! ('B' debe ser distinto de 0 para realizar la division!)\n");
                     }
                     else
                     {
-                        printf("obteniendo resultado de la division... %.2f / %.2f (PROCESANDO...)\n",numberOne,numberTwo);
+                        printf("obteniendo resultado de la division de %.2f / %.2f (PROCESANDO...)\n",numberOne,numberTwo);
                     }
                     printf("obteniendo resultado de los factoriales de %.2f y %.2f (PROCESANDO...)\n",numberOne,numberTwo);
 
